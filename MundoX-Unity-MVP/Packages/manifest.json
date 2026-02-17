@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "com.unity.textmeshpro": "3.0.6",
+    "com.unity.netcode.gameobjects": "1.8.1",
+    "com.unity.transport": "2.0.0",
+    "com.unity.ml-agents": "2.3.0",
+    "com.unity.services.authentication": "3.1.0",
+    "com.unity.services.cloudsave": "3.2.0",
+    "com.unity.services.remote-config": "4.0.0"
+  }
+}
