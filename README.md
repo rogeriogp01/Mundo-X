@@ -13,17 +13,15 @@ Este repositório contém um **blueprint funcional** para iniciar o app mobile s
 ## Estrutura
 - `MundoX-Unity-MVP/Packages/manifest.json`: pacotes sugeridos.
 - `MundoX-Unity-MVP/Assets/Scripts`: scripts base por domínio.
+- `MundoX-Unity-MVP/SETUP.md`: passo a passo detalhado para importar no Unity.
 
-## Como abrir no Unity (passo a passo)
-1. Instale o **Unity Hub** e a versão **Unity 2022 LTS** (ou superior).
-2. No Unity Hub, clique em **New project** e escolha template **3D (URP)**.
-3. Feche o editor após a criação inicial do projeto.
-4. Copie a pasta `MundoX-Unity-MVP/Assets` para a pasta `Assets` do seu projeto Unity.
-5. Substitua o arquivo `Packages/manifest.json` do seu projeto pelo arquivo `MundoX-Unity-MVP/Packages/manifest.json`.
-6. Reabra o projeto no Unity Hub e aguarde o Unity baixar dependências e recompilar scripts.
-7. Abra ou crie a cena `MainScene`, adicione os prefabs/objetos base e anexe os scripts conforme `SETUP.md`.
-
-> Dica: se aparecer erro de pacote, abra `Window > Package Manager` e confirme as versões instaladas.
+## Como colocar no Unity (resumo rápido)
+1. Crie um projeto `3D (URP)` no Unity Hub.
+2. Feche o editor.
+3. Copie `MundoX-Unity-MVP/Assets/Scripts` para `SEU_PROJETO/Assets/Scripts`.
+4. Copie `MundoX-Unity-MVP/Packages/manifest.json` para `SEU_PROJETO/Packages/manifest.json`.
+5. Reabra o projeto no Unity e aguarde recompilação.
+6. Siga o guia completo em `MundoX-Unity-MVP/SETUP.md`.
 
 ## Fluxo de implementação
 1. Criar projeto Unity 2022 LTS (3D URP mobile).
